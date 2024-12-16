@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Card Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">หน้าแรก</a></li>
+                <li><a href="daily.html">ไพ่ทาโรต์รายวัน</a></li>
+                <li><a href="yesnookthankyou.html">ใช่/ไม่</a></li>
+                <li><a href="loveyou.html">ความรัก</a></li>
+                <li><a href="service.html">บริการ</a></li>
+            </ul>
+            <div class="auth-buttons">
+                <button id="loginbutton">เข้าสู่ระบบ</button>
+                <button id="registerbutton">สมัคร</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="form-container">
+        <form>
+            <label for="fullname">ชื่อ-นามสกุล</label>
+                <input type="text" id="fullname" placeholder="ชื่อ-นามสกุล">
+
+                <label for="email">อีเมล</label>
+                <input type="email" id="email" placeholder="อีเมล">
+
+                <label for="phone">เบอร์โทรศัพท์</label>
+                <input type="tel" id="phone" placeholder="เบอร์โทรศัพท์">
+
+                <label for="username">ชื่อบัญชีผู้ใช้</label>
+                <input type="text" id="username" placeholder="ชื่อผู้ใช้">
+
+                <label for="password">รหัสผ่าน</label>
+                <input type="password" id="password" placeholder="รหัสผ่าน">
+
+                <p>กรุณาเลือกบทบาทของคุณ</p>
+                <div class="role-selection">
+                    <input type="radio" id="customer" name="role" value="customer">
+                    <label for="customer">customer</label>
+
+                    <input type="radio" id="fortuneteller" name="role" value="fortuneteller">
+                    <label for="fortuneteller">fortuneteller</label>
+                </div>
+
+                <button type="submit" class="submit-btn">ลงทะเบียน</button>
+        </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
