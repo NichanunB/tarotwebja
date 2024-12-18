@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tarot Card Result</title>
+    <title>Tarot Card Draw</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,21 +16,22 @@
                 <li><a href="loveyou.html">ความรัก</a></li>
                 <li><a href="service.html">บริการ</a></li>
             </ul>
-            <div class="auth-buttons">
-                <button id="loginbutton">เข้าสู่ระบบ</button>
-                <button id="registerbutton">สมัคร</button>
+            <div class="user-dropdown">
+                <button class="dropdown-button">ชื่อผู้ใช้ ▾</button>
+                <div class="dropdown-menu">
+                    <a href="qrscan.html">สมัครสมาชิก</a>
+                    <a href="docolor.html">ดูสีประจำวัน</a>
+                    <a href="samakcard.html">บัตรสมาชิก</a>
+                    <a href="main.html">ออกจากระบบ</a>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="result-page">
-        <div class="card-image">
-            <img src="" alt="Tarot Card">
-    </div>
-    <div class="card-description">
-        <h2></h2>
-        <p></p>
+    <main class ="main-page">
+        <div class="card-description">
+            <p>สีประจำวัน</p>
         </div>
     </main>
-    <script src="script.js"></script>
+    <script src="loggedinscript.js"></script>
 </body>
 </html>

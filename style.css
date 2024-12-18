@@ -117,13 +117,13 @@ nav ul li a:active {
 }
 
 .card {
-    background-image: url("backimage.png");
+    background-image: url("../images/backimage.png");
 }
 .card2 {
-    background-image: url("yesnookthankyou.png");
+    background-image: url("../images/yesnookthankyou.png");
 }
 .card3 {
-    background-image: url("loveyou.png");
+    background-image: url("../images/loveyou.png");
 }
 .card2.selected {
     border: 2px solid #bb0ff0;
@@ -315,4 +315,145 @@ input:focus {
     margin: 5px 0;
     font-size: 0.9em;
     color: #555;
+}
+
+.user-dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f4f4f4;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.section-header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.submit-container {
+    margin-top: 10px;
+}
+
+.primary-button {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #050505;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #bfbfbf;
+}
+#qrCodeContainer {
+    text-align: center;
+    font-size: 1rem;
+    color: #333;
+}
+
+#qrCode {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #d3d3d3;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.membership-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card-box {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #d3d3d3;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+}
+
+.card-description span {
+    font-weight: bold;
+    color: #333;
 }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarot Card Draw</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="main.html">หน้าแรก</a></li>
+                <li><a href="daily.html">ไพ่ทาโรต์รายวัน</a></li>
+                <li><a href="yesnookthankyou.html">ใช่/ไม่</a></li>
+                <li><a href="loveyou.html">ความรัก</a></li>
+                <li><a href="service.html">บริการ</a></li>
+            </ul>
+            <div class="user-dropdown">
+                <button class="dropdown-button">ชื่อผู้ใช้ ▾</button>
+                <div class="dropdown-menu">
+                    <a href="qrscan.html">สมัครสมาชิก</a>
+                    <a href="docolor.html">ดูสีประจำวัน</a>
+                    <a href="samakcard.html">บัตรสมาชิก</a>
+                    <a href="main.html">ออกจากระบบ</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="membership-card">
+            <div class="card-box">
+                <div class="card-title">บัตรสมาชิก</span></div>
+                <div class="card-description">
+                    <p>ชื่อผู้ใช้: <span id="username"></span></p>
+                    <p>รหัสสมาชิก: <span id="member-id"></span></p>
+                    <p>คิวที่จอง: <span id="queue-number"></span></p>
+                    <p>วันเริ่ม: <span id="start-date"></span></p>
+                    <p>วันหมดอายุ: <span id="expiration-date"></span></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="loggedinscript.js"></script>
+</body>
+</html>
